@@ -37,6 +37,7 @@ button{
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  line-height: 60px;
 }
 
 .nav-list > li{
@@ -70,32 +71,43 @@ button{
   font-size: 10px;
 }
 
+/* Dropdown */
 .dropdown-menu{
   position: absolute;
-  width: 305px;
-  top: 30px;
-  left: -80px;
+  top: 55px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.products-menu{
+  display: none; /* jQuery */
+  width: 305px;
+  left: -80px;
+}
+
+.accounts-menu{
+  display: none; /* jQuery */
+  left: -30px;
+}
+
 .dropdown-menu ul li{
-  display: block;
   padding-bottom: 20px;
+  line-height: 20px;
 }
 
 .dropdown-menu ul li:last-child{
   padding-bottom: 0px;
 }
 
-.have-banner{
+.have-text-banner{
   position: relative;
 }
 
-.banner{
+.text-banner{
   position: absolute;
-  top: -8px;
+  top: -10px;
   left: 35px;
-  font-size: 11px;
+  font-size: 10px;
   color: #EC008E;
 }
+
