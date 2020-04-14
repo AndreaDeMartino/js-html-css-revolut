@@ -111,3 +111,22 @@ button{
   color: #EC008E;
 }
 
+.hamburger i{
+  display: none;
+  color: #bbb;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px){
+  .info-section .list-item{
+    display: none;
+  }
+
+  .hamburger i{
+    display: block;
+  }
+
+  .main-nav{
+    justify-content: space-around;
+  }
+} 
